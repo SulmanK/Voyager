@@ -11,7 +11,7 @@ def prompt_api_key():
 
 def select_model():
     """Prompt the user to select an OpenAI model from a predefined list."""
-    models = ["gpt-3.5","gpt-4", "gpt-4o", "gpt-4o-mini"]
+    models = ["gpt-3.5-turbo","gpt-4", "gpt-4o", "gpt-4o-mini"]
     print("\nAvailable OpenAI models:")
     for i, model in enumerate(models, start=1):
         print(f"{i}. {model}")
